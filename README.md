@@ -1,24 +1,24 @@
-# 🔬 AI Research Assistant - CrewAI Implementation
+#  AI Research Assistant - CrewAI Implementation
 
 **Author:** Meet Patel  
 **Course:** INFO 7375 - Building Agentic Systems  
 **Institution:** Northeastern University  
 **Date:** November 2025
 
-## 🎯 Project Overview
+##  Project Overview
 
 A production-grade, multi-agent research assistant powered by CrewAI, featuring advanced NLP claim extraction, comprehensive memory systems, and professional API architecture.
 
 ### Key Features
-- ✅ 4 Specialized AI Agents (Controller, Research, Analysis, Writer)
-- ✅ 4 Advanced Tools (Web Search, Summarizer, Custom Claim Extractor, Formatter)
-- ✅ 3-Tier Memory System (Short-term JSON, Long-term SQLite, Vector ChromaDB)
-- ✅ Quality-Based Adaptive Orchestration
-- ✅ RESTful API with FastAPI
-- ✅ React Frontend (Production-Ready)
-- ✅ 85-90% Accuracy on Claim Extraction
+-  4 Specialized AI Agents (Controller, Research, Analysis, Writer)
+-  4 Advanced Tools (Web Search, Summarizer, Custom Claim Extractor, Formatter)
+-  3-Tier Memory System (Short-term JSON, Long-term SQLite, Vector ChromaDB)
+-  Quality-Based Adaptive Orchestration
+-  RESTful API with FastAPI
+-  React Frontend (Production-Ready)
+-  85-90% Accuracy on Claim Extraction
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐
@@ -48,7 +48,7 @@ A production-grade, multi-agent research assistant powered by CrewAI, featuring 
 └──────────────────────────────────────┘
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -168,11 +168,11 @@ This creates:
 ### Step 7: Verify Installation
 
 ```bash
-python -c "import crewai; print('✅ CrewAI installed')"
-python -c "import spacy; spacy.load('en_core_web_sm'); print('✅ spaCy ready')"
+python -c "import crewai; print(' CrewAI installed')"
+python -c "import spacy; spacy.load('en_core_web_sm'); print(' spaCy ready')"
 ```
 
-## 💻 Usage
+##  Usage
 
 ### API Endpoints
 
@@ -254,7 +254,7 @@ research-assistant/
 └── README.md             # This file
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Run Unit Tests
 
@@ -280,14 +280,14 @@ curl -X POST http://localhost:8000/research \
   -d '{"query": "What is AI?"}'
 ```
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 - **Response Time:** 2.8-3.9 seconds average
 - **Accuracy:** 85-90% (claim extraction)
 - **Quality Score:** 70-90% per query
 - **Success Rate:** 95%+
 
-## 🔧 Configuration
+##  Configuration
 
 Key configuration options in `.env`:
 
@@ -306,7 +306,7 @@ MAX_SEARCH_RESULTS=5           # Web search results
 CLAIM_THRESHOLD=0.5            # Claim confidence threshold
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### API Key Error
 ```
@@ -343,13 +343,13 @@ Error: "Cannot connect to backend"
 ```
 **Solution:** Ensure API is running on `http://localhost:8000`
 
-## 📚 API Documentation
+##  API Documentation
 
 Interactive API documentation available at:
 - **Swagger UI:** http://localhost:8000/docs
 - **ReDoc:** http://localhost:8000/redoc
 
-## 🎯 Custom Tool: Claim-Evidence Extractor
+##  Custom Tool: Claim-Evidence Extractor
 
 The custom NLP tool uses:
 - **spaCy** for dependency parsing and POS tagging
@@ -366,16 +366,16 @@ The custom NLP tool uses:
 4. Matches claims to evidence semantically
 5. Returns structured JSON with confidence scores
 
-## 🔒 Security
+##  Security
 
-- ✅ No API keys in code
-- ✅ Environment variable configuration
-- ✅ Input validation with Pydantic
-- ✅ SQL injection prevention (parameterized queries)
-- ✅ CORS properly configured
-- ✅ Security headers on all responses
+-  No API keys in code
+-  Environment variable configuration
+-  Input validation with Pydantic
+-  SQL injection prevention (parameterized queries)
+-  CORS properly configured
+-  Security headers on all responses
 
-## 📈 Scalability
+##  Scalability
 
 Current implementation supports:
 - Single-user deployment
@@ -388,32 +388,25 @@ For production scaling:
 - Deploy with Docker/Kubernetes
 - Add load balancing
 
-## 🤝 Contributing
+##  Contributing
 
 This is a coursework project. For educational purposes only.
 
-## 📄 License
+##  License
 
 This project is submitted as coursework for INFO 7375 at Northeastern University.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - CrewAI Team for the framework
 - OpenAI for GPT-4 API
 - Northeastern University
-- Prof. [Name] for guidance
 
-## 📞 Contact
-
-**Meet Patel**  
-Email: patel.meet@northeastern.edu  
-GitHub: MeetPatel2811
 
 ---
 
-**Built with ❤️ using CrewAI, Python, React, and AI**
 
-## 🚀 Quick Commands Reference
+##  Quick Commands Reference
 
 ```bash
 # Backend
