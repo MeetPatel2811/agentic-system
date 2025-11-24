@@ -1,0 +1,15 @@
+crewai
+openai
+duckduckgo-search
+spacy
+sentence-transformers
+chromadb
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+pandas
+numpy
+pytest
+pytest-asyncio
+python-multipart
